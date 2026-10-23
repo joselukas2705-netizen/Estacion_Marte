@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><AssemblyName>EstacionMarte.Editor</AssemblyName><ApplicationManifest>app.manifest</ApplicationManifest><ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../EstacionMarte.Core/EstacionMarte.Core.csproj"/><Content Include="../../site/**/*"><Link>plantilla/site/%(RecursiveDir)%(Filename)%(Extension)</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory><CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory></Content></ItemGroup>
+</Project>
