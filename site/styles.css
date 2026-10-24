@@ -3,3 +3,93 @@
 @media(max-width:720px){html{scroll-padding-top:20px}.announcement{font-size:7px;gap:14px;letter-spacing:1.4px;height:29px}.header{height:80px;padding-inline:5%}.header nav{display:none}.selection-button span{display:none}.brand-logo{width:130px}.brand-logo img{width:130px;height:130px;top:-34px}.hero{padding:24px 6% 0;grid-template-columns:1fr;gap:0}.hero-copy{padding:15px 0 0}.eyebrow{font-size:8px;letter-spacing:1.8px}h1{font-size:64px;line-height:1.05;letter-spacing:-2px;margin:22px 0 20px}.hero-copy>p{font-size:12px;max-width:290px}.hero-copy .button{margin-top:8px}.hero-caption{display:none}.hero-visual{margin:30px 0 15px 9%;min-height:380px;height:380px;width:88%}.hero-visual>img{height:380px;min-height:380px}.hero-spark{font-size:60px;right:-8px;top:0}.photo-label{right:-20px;font-size:7px}.floating-note{left:-30px;bottom:16px;padding:18px 25px}.floating-note em{font-size:24px}.floating-note b{font-size:6px}.hero-bottom{padding:16px 0 25px;font-size:7px;letter-spacing:1px}.hero-bottom>span{max-width:140px;line-height:1.8}.hero-bottom a span{margin-left:6px}.values{padding:19px 5%;justify-content:space-between;gap:10px}.values p{font-size:8px;text-align:center;line-height:1.6}.values p span{display:block;margin:0 0 3px}.values i{font-size:15px}.section{padding:55px 6%}.section-top{display:block;margin-bottom:22px}h2{font-size:39px}.section-top>.text-link{margin-top:17px;font-size:10px}.catalog-toolbar{display:block;border:0}.categories{gap:24px;margin-inline:-6.8%;padding-inline:6%;border-bottom:1px solid var(--line)}.categories button{font-size:11px;padding:14px 0}.search{max-width:none;border:1px solid var(--line);padding:11px 13px;margin-top:18px}.search input{font-size:12px}.catalog-options{margin:16px 0}.catalog-options>div{gap:6px}.catalog-options label{font-size:9px}.catalog-options label:first-child{font-size:0}select{max-width:115px;font-size:10px}.catalog-options p{font-size:9px}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 14px}.product-badge{left:7px;top:7px;font-size:7px;padding:5px 7px}.product-quick{width:27px;height:27px;right:8px;bottom:8px}.product-meta h3{font-size:23px}.product-meta .price{font-size:11px;margin:5px 0}.product-card p{font-size:8px}.catalog-note{font-size:8px;line-height:1.8}.load-more{margin-top:30px}.editorial{grid-template-columns:1fr}.editorial-image{height:440px}.editorial-copy{padding:42px 9%}.editorial-copy h2{font-size:56px;margin:22px 0}.editorial-copy>p{font-size:12px}.editorial-sign{margin-top:30px}.gift{grid-template-columns:1fr;gap:35px;padding-block:55px}.gift-copy h2{font-size:51px}.gift-copy{padding-left:0}.gift-photo{height:380px;width:80%;margin-left:17%}.gift-seal{width:95px;height:95px;left:-38px}.contact-band{display:grid;grid-template-columns:35px 1fr;gap:12px;margin:0 6% 35px;padding:25px 0}.contact-band>span{font-size:40px}.contact-band h2{font-size:28px}.contact-band p{font-size:10px;line-height:1.8}.contact-band .button{grid-column:2;margin:10px 0 0;justify-self:start;min-width:175px}footer{grid-template-columns:1fr auto;gap:15px;padding:25px 6%}footer p{grid-row:2;grid-column:1/-1;font-size:10px}footer>a:not(.brand){font-size:10px}footer small{grid-row:3;margin-top:10px}.detail-layout{grid-template-columns:1fr}.detail-layout>img{min-height:0;height:320px;max-height:none;object-position:center}.detail-copy{padding:27px}.detail-copy h2{font-size:40px}.product-dialog{width:92vw;max-height:92dvh}.selection-dialog{padding:30px 23px}.detail-layout dl{margin:22px 0}.close-button{top:10px;right:10px}.button{font-size:11px}.product-meta{margin-top:12px}#toast{font-size:11px;min-width:250px}.section-top h2 em{display:block;margin-top:6px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 
 .brand-logo img{filter:grayscale(1)}@media(max-width:720px){h1{font-size:clamp(44px,12vw,64px)}}
+
+/* Readable supporting text while retaining the original display headings. */
+:root{--muted:#6b5b4b}
+body{font-size:16px;font-weight:450;line-height:1.6}
+.announcement{font-size:11px;min-height:36px;letter-spacing:1.6px}
+.header nav,.selection-button{font-size:14px;font-weight:500}
+.selection-button b{font-size:12px;width:24px;height:24px}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:1.8px}
+.hero-copy>p{font-size:18px;line-height:1.8;max-width:410px}
+.button{font-size:14px;font-weight:550;min-height:52px;line-height:1.5}
+.hero-caption{font-size:14px;line-height:1.8}
+.hero-bottom{font-size:11px;letter-spacing:1.2px;gap:24px}
+.photo-label{font-size:11px;letter-spacing:1.3px}
+.floating-note>span{font-size:14px}
+.floating-note b{font-size:10px;letter-spacing:1px}
+.values p{font-size:14px;line-height:1.7}
+.values p span{font-size:11px;color:#776347}
+.text-link{font-size:14px;font-weight:500}
+.catalog-toolbar{gap:20px}
+.categories{min-width:0;flex:1}
+.categories button{font-size:14px;font-weight:500}
+.search{width:210px;max-width:210px;flex-shrink:0}
+.search input{font-size:14px}
+.search input::placeholder{color:var(--muted)}
+.catalog-options p,.catalog-options label,select{font-size:13px}
+.product-badge{font-size:11px;font-weight:550;letter-spacing:.5px}
+.product-meta h3{font-size:26px;line-height:1.25}
+.product-meta .price{font-size:15px;font-weight:550;padding-top:5px}
+.product-card p{font-size:12px;line-height:1.7}
+.catalog-note{font-size:12px;line-height:1.8}
+.editorial-copy>p,.gift-copy p{font-size:16px;line-height:1.9}
+.editorial-image>span{font-size:12px;letter-spacing:1.8px}
+.gift-seal{font-size:11px;letter-spacing:1px}
+.contact-band p,footer p{font-size:14px;line-height:1.8}
+footer>a:not(.brand){font-size:14px}
+footer small{font-size:11px}
+.detail-copy>p:not(.detail-price){font-size:15px;line-height:1.8}
+.detail-copy .fine-print{font-size:13px!important}
+.detail-price{font-size:23px;font-weight:500}
+dl{font-size:14px;grid-template-columns:105px minmax(0,1fr);line-height:1.7}
+.selection-item p,.selection-summary p{font-size:13px;line-height:1.8}
+.quantity button{width:34px;height:32px}
+.quantity span{font-size:14px;min-width:25px}
+.selection-summary>div{font-size:16px;gap:15px}
+.empty-state p,.selection-empty p{font-size:15px;line-height:1.8}
+#toast{font-size:14px;line-height:1.6}
+@media(max-width:1050px){
+ .header nav{gap:22px}
+ .catalog-toolbar{gap:16px}
+ .search{width:180px;max-width:180px}
+ .product-meta h3{font-size:25px}
+ .product-meta .price{padding-top:0}
+}
+@media(max-width:720px){
+ .announcement{font-size:9px;letter-spacing:.6px;gap:10px;padding:6px 10px;height:auto;flex-wrap:wrap;line-height:1.5}
+ .eyebrow{font-size:11px;letter-spacing:1.3px}
+ .hero-copy>p{font-size:16px;line-height:1.85;max-width:350px}
+ .button{font-size:14px;padding:16px 18px;gap:18px}
+ .hero-bottom{font-size:10px;line-height:1.8;letter-spacing:.7px;align-items:flex-start;gap:15px}
+ .hero-bottom>span{max-width:45%}
+ .hero-bottom>a{max-width:50%;text-align:right}
+ .photo-label{font-size:10px}
+ .floating-note>span{font-size:13px}
+ .floating-note b{font-size:9px;letter-spacing:.7px}
+ .values{gap:8px}
+ .values p{font-size:12px;line-height:1.6}
+ .values p span{font-size:11px}
+ .section-top>.text-link,.text-link{font-size:13px}
+ .categories{gap:22px}
+ .categories button{font-size:14px}
+ .search{width:100%;max-width:none}
+ .search input{font-size:16px}
+ .catalog-options{align-items:flex-start;flex-direction:column;gap:12px}
+ .catalog-options p{font-size:13px}
+ .catalog-options>div{width:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;align-items:end}
+ .catalog-options label,.catalog-options label:first-child{font-size:12px;min-width:0}
+ .catalog-options select{display:block;width:100%;max-width:none;font-size:14px;min-height:36px;padding:5px 0}
+ .product-meta h3{font-size:25px}
+ .product-meta .price{font-size:15px;margin:6px 0}
+ .product-card p{font-size:12px}
+ .product-badge{font-size:10px}
+ .catalog-note{font-size:12px}
+ .editorial-copy>p,.gift-copy p{font-size:16px}
+ .contact-band p{font-size:14px}
+ .contact-band .button{grid-column:1/-1;justify-self:stretch;min-width:0;margin-top:12px}
+ footer p,footer>a:not(.brand){font-size:13px}
+ footer small{font-size:11px}
+ .selection-summary>div{font-size:15px}
+ #toast{font-size:13px}
+}
